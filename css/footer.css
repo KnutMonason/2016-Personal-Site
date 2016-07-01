@@ -9,7 +9,7 @@
 }
 
 .projimg {
-max-width: 500px;
+max-width: 90%;
 
 }
 
@@ -23,7 +23,10 @@ height: 100% !important;
 width: 100px !important;
   }
 
+  .projimg {
+  max-width: 600px;
 
+  }
 
 .nav-tab{
     width: 100px;
