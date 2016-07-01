@@ -135,11 +135,11 @@ h3{
 
 
 .cards h3 {
-  align-items: center;
+
   margin: auto;
 
-  text-align: left !important;
-  max-width: 500px;
+  text-align: left;
+;
 
 }
 
