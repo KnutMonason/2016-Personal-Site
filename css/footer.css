@@ -15,15 +15,21 @@ max-width: 90%;
 
 }
 
-.abouttab
-{bottom: 0;
-margin-top: auto;}
+
 
 @media screen and (min-width: 769px) and (max-width: 4000px) {
   .navbarmobile{
 height: 100% !important;
 width: 100px !important;
   }
+
+  .infotab{
+    position: absolute;
+    bottom: 0;
+    left: -15;
+
+
+}
 
   .projimg {
   max-width: 600px;
@@ -101,4 +107,8 @@ font-family: 'Libre Baskerville', serif;
 .navicon {
   margin-top:10px;
     margin-bottom: -15px;
+}
+
+.infotab {
+  text-decoration: none;
 }
