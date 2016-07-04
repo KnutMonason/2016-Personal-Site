@@ -7,7 +7,7 @@
 }
 
 body {
-font-family: 'Libre Baskerville', serif;
+font-family: 'roboto', serif;
 }
 
 nav a {
@@ -16,7 +16,7 @@ nav a {
 	display: inline-block;
 	margin: 15px 25px;
 	outline: none;
-	    color: #2CDA78;
+	    color: #2196F3;
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -29,7 +29,7 @@ nav a:hover,
 nav a:focus {
 	outline: none;
   	text-decoration: none;
-    color: #161604;
+    color: white;
 }
 
 .cl-effect-8 a {
@@ -43,7 +43,7 @@ nav a:focus {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	border: 3px solid #2CDA78;
+	border: 3px solid #2196F3;
 	content: '';
 	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
 	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
@@ -51,7 +51,7 @@ nav a:focus {
 }
 
 .cl-effect-8 a::after  {
-	border-color: #161604;
+	border-color: white;
 	opacity: 0;
 	-webkit-transform: translateY(-7px) translateX(6px);
 	-moz-transform: translateY(-7px) translateX(6px);
