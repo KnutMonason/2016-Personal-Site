@@ -5,10 +5,6 @@
     text-align: center;
   }
 
-  #card2 h3{
-    text-align: center !important;
-    max-width: 500px;
-  }
 }
 
 .projimg {
@@ -42,7 +38,7 @@ width: 100px !important;
     padding: 0px;
     margin-left: 15px;
       border-right: 0px !important;
-      border-bottom: 1px solid grey;
+      border-bottom: 1px solid #2196F3;
 }
 
 .content {
@@ -56,14 +52,6 @@ margin: auto;}
 
 }
 
-.cards h3 {
-  align-items: center;
-  margin: auto;
-
-  text-align: left !important;
-
-
-}
 
 
 .navbarmobile {
