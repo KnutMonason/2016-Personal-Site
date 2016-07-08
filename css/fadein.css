@@ -48,5 +48,5 @@ body {
 }
 body.fade-out {
     opacity: 0;
-    transition: none;
+    transition: 1s;
 }

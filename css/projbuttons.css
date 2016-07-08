@@ -16,7 +16,7 @@ nav a {
 	display: inline-block;
 	margin: 15px 25px;
 	outline: none;
-	    color: #2196F3;
+	    color: #424242;
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -29,7 +29,7 @@ nav a:hover,
 nav a:focus {
 	outline: none;
   	text-decoration: none;
-    color: white;
+    color: #2196F3;
 }
 
 .cl-effect-8 a {
@@ -43,7 +43,7 @@ nav a:focus {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	border: 3px solid #2196F3;
+	border: 3px solid #424242;
 	content: '';
 	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
 	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
@@ -51,7 +51,7 @@ nav a:focus {
 }
 
 .cl-effect-8 a::after  {
-	border-color: white;
+	border-color: #2196F3;
 	opacity: 0;
 	-webkit-transform: translateY(-7px) translateX(6px);
 	-moz-transform: translateY(-7px) translateX(6px);

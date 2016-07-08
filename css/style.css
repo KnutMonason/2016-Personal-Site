@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:300,500);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,500,700);
 
 html,
 body {
@@ -7,9 +7,10 @@ body {
   margin: 0;
 font-family: 'Roboto', sans-serif;
     width: 100%;
-    color: white;
-    background-color: #02192c;
+
+    background-color: ;
     overflow-x: hidden;
+
 }
 
 div.hidden {
@@ -17,16 +18,6 @@ div.hidden {
 }
 
 
-#topbg {
-
-  width: 100%;
-  position: absolute;
-  top: 0px;
-  height: 100%;
-
-
-
-}
 
 #pattern {
   width: 100%;
@@ -86,7 +77,9 @@ color: white;
 
 }
 
-#card1 h1 {
+#card1 {
+
+
 
 
 
@@ -108,30 +101,40 @@ color: white;
 
 h1 {
 font-weight: 300;
+font-size: 38px;
+  color: #424242;
 ;
 }
 h2{
-  font-weight: 300;
-  font-size: 20px;
-  ;
-}
+  color: #303030;
+    font-size: 38px;
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+  }
+
 h3{
-  font-weight: 300;
-  font-size: 16px;
+  font-weight: 300 !important;
+  font-size: 16px !important;
+  color: #424242;
+  line-height: 25px;
 }
+
 
 h4 {
-
+  color: #303030;
   font-size: 12px;
 }
 
 strong {
   font-weight: 500;
-  font-size: 16px;
+
 }
 
   p{
-    font-size: 16px;
+    font-size: 14px;
+      font-weight: 300;
   }
 
 
@@ -145,8 +148,10 @@ strong {
   background-color: white;
 }
 
-.projimg {
-
+.projimg svg {
+width: 100%;
+height: 300px;
+margin-top: -10%;
 
 
 }
@@ -169,12 +174,14 @@ strong {
 .project {
   margin-bottom: 50px;
   margin-top: 50px;
-  max-height: 500px;
+  max-height: 300px;
+  
 
 }
 
 .description {
   margin-top: -15px;
+  text-align: center;
 
 }
 
@@ -234,7 +241,7 @@ margin-top: 1%;
 
 .line {
 
-  border: 1px solid #2196F3;
+  border: 1px solid #424242;
   width: 168%;
   margin-left: -50%;
 
@@ -245,6 +252,36 @@ margin-top: 1%;
   margin-bottom: 3%;
 }
 
+.skillset h3 {
+  margin-top: 2%;
+}
+
 .star3 {
   color: grey;
+}
+
+
+
+#project1 img:hover {
+  border: 3px solid white;
+}
+
+.marginbottom30 {
+    margin-bottom: 100px;
+}
+
+.development {
+  max-height: 300px;
+}
+
+.fullheader {
+
+}
+.fullheader svg {
+width: 100%;
+max-height: 100px;
+margin-top: 5%;
+margin-bottom: 2%;
+
+
 }
