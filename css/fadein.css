@@ -42,6 +42,12 @@
   animation-delay: 0.8s;
 }
 
+.fade-in.five {
+  -webkit-animation-delay: 4.8s;
+  -moz-animation-delay: 4.8s;
+  animation-delay: 4.8s;
+}
+
 body {
     opacity: 1;
     transition: 1s opacity;
