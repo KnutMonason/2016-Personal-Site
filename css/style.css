@@ -376,3 +376,24 @@ margin-bottom: 2%;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+
+.serviceimg {
+max-width: 100%;
+height: auto;
+
+max-height: 150px;
+margin: auto;
+
+}
+
+.service {
+  height: auto;
+  padding: 5%;
+  text-align: center;
+}
+
+.profileimg {
+
+  width: 100%;
+  height: auto;
+}
