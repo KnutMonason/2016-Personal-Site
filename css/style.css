@@ -316,7 +316,6 @@ margin: auto;
 .profileimg {
   width: 100%;
   height: auto;
--webkit-filter: grayscale(1);
 margin-top: 20%;
 max-height: 60%;
 
@@ -330,5 +329,19 @@ max-height: 60%;
 
 .small span {
   height: 100%;
+
+}
+
+.logoreal {
+  margin: auto;
+  text-align: center;
+}
+
+.logoreal img {
+  width: 90%;
+  margin: auto;
+}
+
+.logorealdescription {
 
 }
