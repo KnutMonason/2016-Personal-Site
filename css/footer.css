@@ -11,14 +11,16 @@
     margin: auto;
   }
 
-}
+  .projimg img {
+  max-width: 90%;
 
-
-
-.projimg {
-max-width: 90%;
+  }
 
 }
+
+
+
+
 
 
 
