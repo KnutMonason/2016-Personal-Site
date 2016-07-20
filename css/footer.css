@@ -1,11 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,500);
 
-@media screen and (min-width: 0px) and (max-width: 769px) {
+@media screen and (min-width: 0px) and (max-width: 1199px) {
   .cards {
     text-align: center;
+
+  }
+
+  .iconboxdescription h3 {
+    max-width: 500px;
+    margin: auto;
   }
 
 }
+
+
 
 .projimg {
 max-width: 90%;
@@ -49,7 +57,8 @@ border-left: transparent solid 115px;
 
 .projimg {
 
-margin: auto;}
+margin: auto;
+}
 
 }
 
