@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,500);
 
-@media screen and (min-width: 0px) and (max-width: 1199px) {
+@media screen and (min-width: 0px) and (max-width: 769px) {
   .cards {
     text-align: center;
 
@@ -11,10 +11,7 @@
     margin: auto;
   }
 
-  .projimg img {
-  max-width: 90%;
 
-  }
 
 }
 
