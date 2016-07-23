@@ -1,15 +1,19 @@
-1/* make keyframes that tell the start state and the end state of our object */
+
+
+/* FADE IN */
+
+1
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
 .fade-in {
-  opacity:0;  /* make things invisible upon start */
-  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  opacity:0;
+  -webkit-animation:fadeIn ease-in 1;
   -moz-animation:fadeIn ease-in 1;
   animation:fadeIn ease-in 1;
 
-  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -webkit-animation-fill-mode:forwards;
   -moz-animation-fill-mode:forwards;
   animation-fill-mode:forwards;
 
@@ -25,15 +29,15 @@
 }
 
 .fade-in.two {
-  -webkit-animation-delay: 0.6s;
-  -moz-animation-delay:0.6s;
-  animation-delay: 0.6s;
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay:0.3s;
+  animation-delay: 0.3s;
 }
 
 .fade-in.three {
-  -webkit-animation-delay: 0.9s;
-  -moz-animation-delay: 0.9s;
-  animation-delay: 0.9s;
+  -webkit-animation-delay: 0.6s;
+  -moz-animation-delay: 0.6s;
+  animation-delay: 0.6s;
 }
 
 .fade-in.four {
@@ -55,4 +59,268 @@ body {
 body.fade-out {
     opacity: 0;
     transition: 10s;
+}
+
+/* FADE IN RIGHT */
+
+.right200 {
+
+    -moz-animation-name: right200;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease-in;
+    -moz-animation-duration: 0.6s;
+
+    -webkit-animation-name: right200;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-duration: 0.6s;
+
+    animation-name: right200;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 0.6s;
+}
+
+@-moz-keyframes right200 {
+    0% {
+        -moz-transform: translateX(-200px);
+    }
+    100% {
+        -moz-transform: translateX(0px);
+    }
+}
+@-webkit-keyframes right200 {
+    0% {
+        -webkit-transform: translateX(-200px);
+    }
+    100% {
+        -webkit-transform: translateX(0px);
+    }
+}
+@keyframes right200 {
+    0% {
+        transform: translateX(-200px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+
+/* FADE IN LEFT*/
+
+.left200 {
+
+    -moz-animation-name: left200;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease-in;
+    -moz-animation-duration: 0.6s;
+
+    -webkit-animation-name: left200;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-duration: 0.6s;
+
+    animation-name: left200;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 0.6s;
+}
+
+@-moz-keyframes left200 {
+    0% {
+        -moz-transform: translateX(200px);
+    }
+    100% {
+        -moz-transform: translateX(0px);
+    }
+}
+@-webkit-keyframes left200 {
+    0% {
+        -webkit-transform: translateX(200px);
+    }
+    100% {
+        -webkit-transform: translateX(0px);
+    }
+}
+@keyframes left200 {
+    0% {
+        transform: translateX(200px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+
+.up200 {
+
+    -moz-animation-name: up200;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease-in;
+    -moz-animation-duration: 0.6s;
+
+    -webkit-animation-name: up200;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-duration: 0.6s;
+
+    animation-name: up200;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 0.6s;
+}
+
+@-moz-keyframes up200 {
+    0% {
+        -moz-transform: translateY(200px);
+    }
+    100% {
+        -moz-transform: translateY(0px);
+    }
+}
+@-webkit-keyframes up200 {
+    0% {
+        -webkit-transform: translateY(200px);
+    }
+    100% {
+        -webkit-transform: translateY(0px);
+    }
+}
+@keyframes up200 {
+    0% {
+        transform: translateY(200px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.up1200 {
+
+    -moz-animation-name: up1200;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease-in;
+    -moz-animation-duration: 0.6s;
+
+    -webkit-animation-name: up1200;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-duration: 0.6s;
+
+    animation-name: up1200;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 0.6s;
+}
+
+@-moz-keyframes up1200 {
+    0% {
+        -moz-transform: translateY(1200px);
+    }
+    100% {
+        -moz-transform: translateY(0px);
+    }
+}
+@-webkit-keyframes up1200 {
+    0% {
+        -webkit-transform: translateY(1200px);
+    }
+    100% {
+        -webkit-transform: translateY(0px);
+    }
+}
+@keyframes up1200 {
+    0% {
+        transform: translateY(1200px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.up5 {
+
+    -moz-animation-name: up5;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease-in;
+    -moz-animation-duration: 0.6s;
+
+    -webkit-animation-name: up5;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-duration: 0.6s;
+
+    animation-name: up5;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 0.6s;
+}
+
+@-moz-keyframes up5 {
+    0% {
+        -moz-transform: translateY(30px);
+    }
+    100% {
+        -moz-transform: translateY(0px);
+    }
+}
+@-webkit-keyframes up5 {
+    0% {
+        -webkit-transform: translateY(30px);
+    }
+    100% {
+        -webkit-transform: translateY(0px);
+    }
+}
+@keyframes up5 {
+    0% {
+        transform: translateY(30px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.down5 {
+
+    -moz-animation-name: down5;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease-in;
+    -moz-animation-duration: 0.6s;
+
+    -webkit-animation-name: down5;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-duration: 0.6s;
+
+    animation-name: down5;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 0.6s;
+}
+
+@-moz-keyframes down5 {
+    0% {
+        -moz-transform: translateY(-10px);
+    }
+    100% {
+        -moz-transform: translateY(0px);
+    }
+}
+@-webkit-keyframes down5 {
+    0% {
+        -webkit-transform: translateY(-10px);
+    }
+    100% {
+        -webkit-transform: translateY(0px);
+    }
+}
+@keyframes down5 {
+    0% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }
