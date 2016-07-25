@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,500,700);
 
+
 html,
 body {
   height: 100%;
@@ -69,9 +70,9 @@ color: white;
 h1 {
 font-weight: 300 ;
 font-size: 38px;
-  color: #424242;
-;
 }
+
+
 h2{
       font-weight: 300;
         font-size: 30px;
@@ -90,6 +91,13 @@ h3{
 h4 {
   color: #303030;
   font-size: 12px;
+}
+
+
+h5 {
+  color: #303030;
+  font-size: 38px;
+  font-weight: 400;
 }
 
 strong {
@@ -127,6 +135,13 @@ strong {
   text-align: center;
 }
 
+.big {
+  font-size: 300px;
+}
+.big svg{
+  width: 300px;
+  max-width: 80%;
+}
 .meat {
   margin: auto;
   width: 90%;

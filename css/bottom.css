@@ -1,0 +1,113 @@
+
+
+
+.return-bottom {
+  z-index: 5;
+  display: inline-block;
+  height: 140px;
+  width: 140px;
+
+  bottom: 20%;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: #2196F3;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .9s 0s, visibility 0s .9s;
+  -moz-transition: opacity .9s 0s, visibility 0s .9s;
+  transition: opacity .9s 0s, visibility 0s .9s;
+}
+.return-bottom.visible, .return-bottom.return-fade-out, .no-touch .return-bottom:hover {
+  -webkit-transition: opacity .9s 0s, visibility 0s 0s;
+  -moz-transition: opacity .9s 0s, visibility 0s 0s;
+  transition: opacity .9s 0s, visibility 0s 0s;
+}
+.return-bottom.visible {
+
+  visibility: visible !important;
+  opacity: 1 !important;
+
+}
+.return-bottom.return-fade-out {
+
+  opacity: .5;
+}
+.return-bottom:hover {
+  background-color: #2196F3;
+  opacity: 1;
+
+
+
+  -moz-animation-name: jump;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: ease-in;
+  -moz-animation-duration: 0.8s;
+
+  -webkit-animation-name: jump;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-duration: 0.8s;
+
+  animation-name: jump;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.8s;
+
+
+}
+
+@-moz-keyframes jump {
+    0% {
+        -moz-transform: translateY(0px);
+    }
+    50% {
+        -moz-transform: translateY(-5px);
+    }
+    100% {
+        -moz-transform: translateY(0px);
+  }
+}
+@-webkit-keyframes jump {
+  0% {
+      -webkit-transform: translateY(0px);
+  }
+  50% {
+      -webkit-transform: translateY(-5px);
+  }
+  100% {
+      -webkit-transform: translateY(0px);
+}
+}
+@keyframes jump {
+  0% {
+      transform: translateY(0px);
+  }
+  50% {
+      transform: translateY(-5px);
+  }
+  100% {
+      transform: translateY(0px);
+}
+}
+
+
+
+
+}
+@media only screen and (min-width: 768px) {
+  .return-bottom {
+    right: 20px;
+    bottom: 200px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .return-bottom {
+    height: 100px;
+    width: 300px;
+    margin: auto;
+    bottom: 130px;
+  }
+}
