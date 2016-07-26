@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,500,700);
 
-
 html,
 body {
   height: 100%;
@@ -76,14 +75,14 @@ font-size: 38px;
 h2{
       font-weight: 300;
         font-size: 30px;
-  color: #303030;
+
 
   }
 
 h3{
   font-weight: 300 !important;
   font-size: 16px !important;
-  color: black;
+
   line-height: 25px;
 }
 
@@ -174,6 +173,8 @@ strong {
   text-align: center;
 
 }
+
+
 
 
 .development {
@@ -283,6 +284,10 @@ margin-top: 1%;
   margin-top: 60px;
 }
 
+.marginbottom60 {
+  margin-bottom: 10%;
+}
+
 .development {
   max-height: 200px;
 
@@ -299,6 +304,13 @@ margin-top: 1%;
   margin-top: 10%;
   margin-bottom: 20%;
   text-align: center;
+}
+
+.mockup img {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  height: 400px;
 }
 
 
@@ -359,11 +371,50 @@ max-width: 90%;
 
 .projimg img {
 max-width: 90%;
+max-height: 120px;
+text-align: center;
+background-color: white;
+margin-top: 5%;
 
+}
+
+.white {
+  background-color: white;
+  width: 150%;
+height: 200px;
+position: absolute;
 }
 
 .logoimg{
   margin: auto;
+}
+
+.minusmargindown {
+  margin-bottom: -100px;
+}
+
+.project {
+
+border: 20px solid white;
+padding: 10px;
+
+}
+
+.parmentred {
+  color:#C1272D;
+}
+
+.annagreen {
+  color:#70C05C;
+}
+
+.branding {
+  margin-top: 10%;
+}
+
+
+.fixedheight {
+  height: 300px;
 }
 
 
@@ -428,3 +479,13 @@ padding-top: -30px;
   transform: scaleX(1);
 }
 /* LINK ANIMATION END */
+
+.buttonwidth{
+max-width: 640px;
+margin: auto;
+}
+
+
+.project {
+  min-height: 500px;
+}
