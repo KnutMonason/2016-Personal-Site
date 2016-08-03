@@ -366,7 +366,7 @@ max-width: 90%;
 
 .modal-meat {
   background-color: white;
-  height:40%;
+  height:auto;
 }
 
 .projimg img {
