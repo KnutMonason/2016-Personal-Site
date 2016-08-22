@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="css/projbuttons.css">
 
 <link rel="stylesheet" href="css/backtotop.css">
-
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
  </head>
     <body>
       	<main class="return-container">
@@ -77,9 +77,9 @@
 <!--MEAT-->
 <div class="fade-in one rowwidth">
 <div class="row down5 ">
-<div class="col-lg-6 marginbottom30 margintop60 cards links ">
+<div class="col-lg-6 marginbottom30 margintop60 cards links bluetype">
   <h3>2015-2016</h3>
-<h1 class="blue"><strong>Doktor Anna</strong></h1>
+<h1 class="blue"><strong>:<h1 class="typingthis"></h1></strong></h1>
 <div class="lineshort"></div>
 <h2>Website and brand</h2>
 
@@ -116,12 +116,12 @@
 </h3>
 
 <h3>
-The clients main request was to update the current site while mainaining the copywriting and structure of the current one.<br> </h3>
+The clients main request was to update the current site while mainaining the copywriting and structure of the old one.<br> </h3>
   </div>
 
 
   <div class="col-lg-4">
-    <h1><strong>Challanges</strong></h1>
+    <h1><strong>Process</strong></h1>
     <ul>
       <li>Target group
       <h3>Understanding the user is the key of making a usable website. <br> </h3></li>
@@ -192,11 +192,51 @@ The clients main request was to update the current site while mainaining the cop
 
 </main>
 	<a href="#0" class="return-top"><span></span></a>
+  <script src="typed.js"></script>
+  <script>
+      $(function(){
+          $(".typingthis").typed({
+              strings: ["Doktor Anna","doktoranna.se"],
+              // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
+              stringsElement: null,
+              // typing speed
+              typeSpeed:  30,
+              // time before typing starts
+              startDelay: 0,
+              // backspacing speed
+              backSpeed: 0,
+              // shuffle the strings
+                 shuffle: false,
+              // time before backspacing
+              backDelay: 500,
+              // loop
+              loop: false,
+              // false = infinite
+              loopCount: false,
+              // show cursor
+              showCursor:false,
+              // character for cursor
+              cursorChar: "|",
+              // attribute to type (null == text)
+              attr: null,
+              // either html or text
+              contentType: 'html',
+              // call when done callback function
+              callback: function() {},
+              // starting callback function before each string
+              preStringTyped: function() {},
+              //callback for every typed string
+              onStringTyped: function() {},
+              // callback for reset
+              resetCallback: function() {}
+          });
+      });
+  </script>
 
     <script src="js/jquery-2.2.1.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-          <script src="js/backtotop.js"></script>
 
+          <script src="js/backtotop.js"></script>
+    <script src="js/type.js"></script>
                     <script src="js/bottom.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 

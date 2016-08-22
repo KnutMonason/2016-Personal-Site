@@ -489,3 +489,44 @@ margin: auto;
 .project {
   min-height: 500px;
 }
+
+.text-align-left {
+  text-align: left;
+}
+
+.letscode h1 , .letscode span{
+  font-size: 50px;
+  display: inline;
+    color: white !important;
+}
+
+.bluetype h1 , .bluetype span{
+  font-size: 70px;
+  display: inline;
+    color: #2196F3 !important;
+}
+
+
+/* TYPE ANIMATION */
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}

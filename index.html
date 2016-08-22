@@ -13,7 +13,7 @@
 
 <link rel="stylesheet" href="css/footer.css">
 
-
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 </head>
     <body>
 
@@ -68,23 +68,28 @@
       <div class="text fade-in one ">
 
     <div class="name">
-    <h1>  <strong>Knut Monason</strong> Design and Development for the web </h1>
+
     </div>
 
 
+<div class="row">
+  <div class="col-lg-3"></div>
+    <div class="down5 col-lg-12 letscode margintop60">
+      <h1>  <strong>Knut Monason</strong> <br><h1 class="typingthis "></h1> </h1>
 
-    <div class="letscode down5">
-      <h1> Let’s code </h1>
 
+
+</div>
+  <div class="col-lg-3"></div>
     </div>
 
     <div class="main down5">
       <div class="greetings">
 
 
-      <h1>&lt;greetings&gt; <br><br>
+      <h1 >&lt;greetings&gt; <br><br>
 You have made it to my <a href="about.html"><strong> personal website.</strong></a><br>
-Here you can explore all sorts of things. <br>
+Here you can  explore all sorts of things. <br>
 Like looking at <a href="work.html"><strong> my work, </strong></a><br>
 get to learn <a href="about.html"><strong> about me </strong></a>
 <br>and even <a href="contact.html"><strong> contact me! </strong></a>
@@ -101,12 +106,55 @@ get to learn <a href="about.html"><strong> about me </strong></a>
 </div>
 </div>
   <a href="#0" class="return-top"><span></span></a>
+
+<script src="typed.js"></script>
+<script>
+    $(function(){
+        $(".typingthis").typed({
+            strings: ["Design","Development","Design and Development for the web;"],
+            // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
+            stringsElement: null,
+            // typing speed
+            typeSpeed:  30,
+            // time before typing starts
+            startDelay: 0,
+            // backspacing speed
+            backSpeed: 0,
+            // shuffle the strings
+               shuffle: false,
+            // time before backspacing
+            backDelay: 500,
+            // loop
+            loop: false,
+            // false = infinite
+            loopCount: false,
+            // show cursor
+            showCursor: true,
+            // character for cursor
+            cursorChar: "|",
+            // attribute to type (null == text)
+            attr: null,
+            // either html or text
+            contentType: 'html',
+            // call when done callback function
+            callback: function() {},
+            // starting callback function before each string
+            preStringTyped: function() {},
+            //callback for every typed string
+            onStringTyped: function() {},
+            // callback for reset
+            resetCallback: function() {}
+        });
+    });
+</script>
+
 <script src="js/jquery-2.2.1.min.js"></script>
   <script src="js/button.js"></script>
   <script src="js/onload.js"></script>
   <script src="js/bg.js"></script>
+    <script src="js/type.js"></script>
 
- 
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 
