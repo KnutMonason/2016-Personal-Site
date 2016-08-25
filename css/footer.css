@@ -11,7 +11,17 @@
     margin: auto;
   }
 
-  .
+.margintop60, .margintop10 {
+  margin-top: 1% !important;
+}
+
+  .text h1{
+    font-size: 23px !important;
+  }
+
+  .meat h2{
+    font-size: 20px !important;
+  }
 
 }
 
@@ -29,7 +39,7 @@ width: 100px !important;
   }
 
   .worktop{
-    margin-left: 60px;
+    margin-left: 90px;
   }
 
   .angled h1, .angled h2, .angled h3,{

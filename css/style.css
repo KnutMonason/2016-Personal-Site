@@ -365,10 +365,9 @@ margin: auto;
 }
 
 .profileimg {
-  width: 100%;
-  height: auto;
-margin-top: 20%;
-max-height: 60%;
+  margin: auto;
+margin-top: 5%;
+max-height: 500px;
 
 }
 
