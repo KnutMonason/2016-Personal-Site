@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,500);
 
-@media screen and (min-width: 0px) and (max-width: 1200px) {
+@media screen and (min-width: 0px) and (max-width: 769px) {
   .cards {
     text-align: center;
 
@@ -11,7 +11,7 @@
     margin: auto;
   }
 
-
+  .
 
 }
 
@@ -26,6 +26,16 @@
   .navbarmobile{
 height: 100% !important;
 width: 100px !important;
+  }
+
+  .worktop{
+    margin-left: 60px;
+  }
+
+  .angled h1, .angled h2, .angled h3,{
+
+    text-align: center;
+    margin: auto;
   }
 
   .infotab{

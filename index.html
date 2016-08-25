@@ -15,7 +15,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 </head>
-    <body>
+    <body class="overflowhidden">
 
 
             <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -63,9 +63,9 @@
 
 
 
-      <div id="gradient"><!-- <img src="img/patterngrey.png">--> </div>
+      <div id="gradient" ><!-- <img src="img/patterngrey.png">--> </div>
 
-      <div class="text fade-in one ">
+      <div class="text fade-in one">
 
     <div class="name">
 
@@ -83,17 +83,17 @@
   <div class="col-lg-3"></div>
     </div>
 
-    <div class="main down5">
-      <div class="greetings">
+    <div class="main">
+      <div class="greetings  down5">
 
 
-      <h1 >&lt;greetings&gt; <br><br>
+      <h1 >&lt;hello&gt; <br><br>
 You have made it to my <a href="about.html"><strong> personal website.</strong></a><br>
 Here you can  explore all sorts of things. <br>
 Like looking at <a href="work.html"><strong> my work, </strong></a><br>
 get to learn <a href="about.html"><strong> about me </strong></a>
 <br>and even <a href="contact.html"><strong> contact me! </strong></a>
-<br><br>&lt;/greetings&gt;
+<br><br>&lt;/hello&gt;
 </h1>
 </nav>
 </div>
@@ -110,11 +110,12 @@ get to learn <a href="about.html"><strong> about me </strong></a>
 <script>
     $(function(){
         $(".typingthis").typed({
-            strings: ["Design","Development","Design and Development for the web;"],
+            strings: ["Let's code;"],
+            //strings: ["Design","Development","Design and Development for the web;"],
             // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
             stringsElement: null,
             // typing speed
-            typeSpeed:  30,
+            typeSpeed:  100,
             // time before typing starts
             startDelay: 0,
             // backspacing speed

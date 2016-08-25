@@ -12,14 +12,17 @@ font-family: 'Roboto', sans-serif;
 
 #gradient{
 
-position: fixed;
+position: relative;
 width: 100%;
-height: 100%;
+  height: 100%;
 padding: 0px;
 margin: 0px;
 overflow: hidden;
+overflow-x: hidden;
+overflow-y: hidden;
 
 }
+
 
 
 
@@ -82,7 +85,7 @@ strong {
   color:white;
 }
 
-#gradient img {
+.gradient img {
  opacity: 0.5;
 }
 
