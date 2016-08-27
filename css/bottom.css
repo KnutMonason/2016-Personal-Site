@@ -1,14 +1,31 @@
 
+.anglednext {
+
+-webkit-clip-path: polygon(0 20%, 0 100%, 120% 100%, 100% 0);
+padding-top: 3%;
+padding-bottom: 3%;
+overflow: hidden;
+
+}
+
+.anglednext a {
+  display: block;
+  text-decoration: none;
+}
 .bignext {
   height: 180px;
   width: 180px;
+  bottom: 20%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    display: inline-block;
+      margin: auto;
 
 }
 .bignext span {
   margin-top: 10px;
 }
 
-.bignext:hover {
+.bignext:hover .anglednext:hover {
   -moz-animation-name: jump;
   -moz-animation-iteration-count: 1;
   -moz-animation-timing-function: ease-in;
@@ -30,6 +47,10 @@
 
   padding: 20px;
   line-height: 20px
+  bottom: 20%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    display: inline-block;
+      margin: auto;
 }
 
 .nextbutton a{
@@ -57,12 +78,12 @@
 .return-bottom {
   transition: all 210ms ease;
   z-index: 5;
-  display: inline-block;
 
 
-  bottom: 20%;
-  margin: auto;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+
+
+
+
   overflow: hidden;
 color: white;
 

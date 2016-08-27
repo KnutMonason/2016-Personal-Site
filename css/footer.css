@@ -1,6 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,500);
 
 @media screen and (min-width: 0px) and (max-width: 769px) {
+
+  .anglednext {
+    background-color: white !important;
+  }
   .cards {
     text-align: center;
 
@@ -15,12 +19,16 @@
   margin-top: 1% !important;
 }
 
-  .text h1{
+  .name h1{
     font-size: 23px !important;
   }
 
+  .enter h1{
+    font-size: 35px!important;
+  }
+
   .meat h2{
-    font-size: 20px !important;
+    font-size: 23px !important;
   }
 
 }

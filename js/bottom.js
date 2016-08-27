@@ -1,6 +1,6 @@
 $(document).ready(function($){
 	// browser window scroll (in pixels) after which the "back to top" link is shown
-	var offset = 300,
+	var offset = 30,
 		//browser window scroll (in pixels) after which the "back to top" link opacity is reduced
 		offset_opacity = 1200,
 		//duration of the top scrolling animation (in ms)
@@ -30,9 +30,24 @@ $(document).ready(function($){
 // Show at bottom
 $(window).scroll(function() {
 
-  if ($(window).scrollTop() >= $(document).height() - $(window).height() - 250) {
+  if ($(window).scrollTop() >= $(document).height() - $(window).height() - 10) {
 
        $(".return-bottom").addClass("visible");
 
    }
+});
+
+$(window).scroll(function() {
+
+  if ($(window).scrollTop() >= $(document).height() - $(window).height() - 10) {
+
+       $(".anglednext").addClass("up30");
+
+   }
+});
+
+
+$(".gigantlink").click(function() {
+  window.location = $(this).find("a").attr("href");
+  return false;
 });

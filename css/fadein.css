@@ -239,14 +239,14 @@ body.fade-out {
     }
 }
 
-.up1200 {
+.up30 {
 
-    -moz-animation-name: up1200;
+    -moz-animation-name: up30;
     -moz-animation-iteration-count: 1;
     -moz-animation-timing-function: ease-in;
     -moz-animation-duration: 0.6s;
 
-    -webkit-animation-name: up1200;
+    -webkit-animation-name: up30;
     -webkit-animation-iteration-count: 1;
     -webkit-animation-timing-function: ease-in;
     -webkit-animation-duration: 0.6s;
@@ -259,7 +259,7 @@ body.fade-out {
 
 @-moz-keyframes up1200 {
     0% {
-        -moz-transform: translateY(1200px);
+        -moz-transform: translateY(30px);
     }
     100% {
         -moz-transform: translateY(0px);
@@ -267,7 +267,7 @@ body.fade-out {
 }
 @-webkit-keyframes up1200 {
     0% {
-        -webkit-transform: translateY(1200px);
+        -webkit-transform: translateY(30px);
     }
     100% {
         -webkit-transform: translateY(0px);
@@ -275,7 +275,7 @@ body.fade-out {
 }
 @keyframes up1200 {
     0% {
-        transform: translateY(1200px);
+        transform: translateY(30px);
     }
     100% {
         transform: translateY(0px);

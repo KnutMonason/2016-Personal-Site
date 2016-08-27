@@ -12,6 +12,12 @@ font-family: 'Roboto', sans-serif;
 
 }
 
+html {
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+}
+
 
 
 
@@ -237,9 +243,10 @@ padding-bottom: 5%;
 padding-left: 5%;
 padding-right: 5%;
 overflow: hidden;
+
 }
 
-.angled h1, .angled h2, .angled h3, .angled span{
+.angled h1, .angled h2, .angled h3, .angled span, .anglednext h1 {
   color: white !important;
   margin: auto;
 
@@ -340,12 +347,7 @@ overflow: hidden;
   text-align: center;
 }
 
-.mockup img {
-  text-align: center;
-  margin: auto;
-  width: 100%;
-  height: 400px;
-}
+
 
 
 
@@ -455,13 +457,6 @@ max-width: 90%;
 }
 
 
-
-.white {
-  background-color: white;
-  width: 150%;
-height: 200px;
-position: absolute;
-}
 
 .logoimg{
   margin: auto;
