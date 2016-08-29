@@ -90,14 +90,14 @@ color: white;
   background: #2196F3;
   visibility: hidden;
   opacity: 0;
-  -webkit-transition: opacity .9s 0s, visibility 0s 1.9s;
-  -moz-transition: opacity .9s 0s, visibility 0s 1.9s;
-  transition: opacity .9s 0s, visibility 0s 1.9s;
+  -webkit-transition: opacity .9s 0s, visibility 0s 0.9s;
+  -moz-transition: opacity .9s 0s, visibility 0s 0.9s;
+  transition: opacity .9s 0s, visibility 0s 0.9s;
 }
 .return-bottom.visible, .return-bottom.return-fade-out, .no-touch .return-bottom:hover {
-  -webkit-transition: opacity 3s 0s, visibility 0s 0s;
-  -moz-transition: opacity 3s 0s, visibility 0s 0s;
-  transition: opacity 3s 0s, visibility 0s 0s;
+  -webkit-transition: opacity 1s 0s, visibility 0s 0s;
+  -moz-transition: opacity 1s 0s, visibility 0s 0s;
+  transition: opacity 1s 0s, visibility 0s 0s;
     animation-timing-function: ease-in;
 }
 .return-bottom.visible {

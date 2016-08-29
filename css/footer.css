@@ -9,9 +9,15 @@
 
 @media screen and (min-width: 0px) and (max-width: 769px) {
 
-  .anglednext {
-    background-color: white !important;
+
+  .mobilehide {
+    display: none !important;
   }
+
+  .mobileshow {
+    display: block!important;
+  }
+
 
 
   .iconboxdescription h3 {
@@ -57,6 +63,17 @@
 height: 100% !important;
 width: 100px !important;
   }
+
+  .mobileshow {
+    display: none!important;
+  }
+
+  .mobilehide {
+    display: block !important;
+  }
+
+
+
 
   .worktop{
     margin-left: 90px;
