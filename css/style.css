@@ -71,13 +71,13 @@ color: white;
 
 h1 {
 font-weight: 300 ;
-font-size: 38px;
+font-size: 30px;
 }
 
 
 h2{
       font-weight: 300;
-        font-size: 30px;
+        font-size: 25px;
 
 
   }
@@ -142,6 +142,10 @@ strong {
   width: 90%;
     overflow: hidden;
       max-width: 1200px;
+
+}
+
+.mockup{
 
 }
 
@@ -470,12 +474,12 @@ max-width: 90%;
 }
 
 
-.parmentred {
-  color:#C1272D;
+.parmentred h1 {
+  color:#C1272D !important;
 }
 
-.annagreen {
-  color:#70C05C;
+.annagreen h1 {
+  color:#70C05C !important;
 }
 
 .branding {
@@ -570,7 +574,7 @@ margin: auto;
 .bluetype h1 , .bluetype span{
   font-size: 70px;
   display: inline;
-    color: #2196F3 !important;
+
 }
 
 
